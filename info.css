@@ -1,0 +1,109 @@
+.info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    font-size: 40px;
+    padding: 0px 0px 0px 0px;
+}
+.details{
+    height: 500px;
+    width: 400px;
+    background-color: transparent;
+    flex-direction: column;
+    align-content: center ;
+    justify-content:space-evenly;
+}
+
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 53%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent; 
+    }
+}
+
+@keyframes erasing {
+    0% {
+        width: 53%;
+    }
+    50% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+.pic{
+    height: 400px;
+    width: 700px;
+    background-color: transparent;
+    padding: 20px 20px 20px 20px;
+
+}
+.imgSil{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.namediv{
+    display: flex;
+    flex-direction: row;
+    align-items:start;
+    justify-content: space-evenly;
+    width: 440px;
+    height: 50px;
+    padding: 0px 0px 0px 0px;
+}
+.iddiv{
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    align-items: start;
+    justify-items: flex-start;
+    justify-content:flex-start;
+    width: 440px;
+    padding: 0px 0px 0px 0px;
+}
+.biodiv{
+    display: flex;
+    height: 50px;
+    flex-direction: row;
+    align-items: start;
+    justify-content: flex-start;
+    width: 440px;
+    padding: 0px 0px 0px 0px;
+}
+.namep p{
+    color: rgb(74, 228, 92);
+}
+.namep2 p{
+    color: white;
+    width: 440px;
+}
+.idp p{
+    color: rgb(74, 228, 92);
+}
+.idp2 p{
+    color: white;
+}
+.biop p{
+    color: rgb(74, 228, 92);
+}
+.biop2 p{
+    color: white;
+}

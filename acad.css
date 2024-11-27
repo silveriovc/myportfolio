@@ -1,0 +1,9 @@
+.acaddetails{
+    height: 500px;
+    width: 600px;
+    background-color: transparent;
+    flex-direction: column;
+    align-content: center ;
+    justify-content:space-evenly;
+    
+}

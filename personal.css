@@ -1,0 +1,88 @@
+.personal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    background-color: black;
+    font-size: 40px;
+    padding: 0px 0px 0px 0px;
+}
+.name{
+    height: 500px;
+    width: 500px;
+    background-color: transparent;
+    padding: 20px 20px 20px 20px;
+    flex-direction: column;
+    align-content: center ;
+    justify-content:space-evenly;
+}
+.name2 {
+    font-size: 40px;
+    color: rgb(13, 164, 33);
+    border-right: 2px solid rgb(13, 164, 33); 
+    padding-right: 5px; 
+    white-space: nowrap;
+    overflow: hidden; 
+    animation: typing 4s steps(30) infinite, blink 0.75s step-end infinite, erasing 10s steps(30) infinite;
+}
+
+@keyframes typing {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 53%;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent; 
+    }
+}
+
+@keyframes erasing {
+    0% {
+        width: 53%;
+    }
+    50% {
+        width: 0;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+.pic{
+    height: 400px;
+    width: 700px;
+    background-color: transparent;
+    padding: 20px 20px 20px 20px;
+
+}
+.imgSil{
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+}
+
+.job{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100px;
+    background-color: transparent;
+    font-size: 40px;
+    padding: 0px 0px 0px 0px;
+}
+
+.aspiring{ 
+    padding: 0px 20px 5px 0px;
+    background-color: transparent;
+    flex-direction: column;
+    align-content: center ;
+}

@@ -1,0 +1,29 @@
+.skills{
+    padding: 150px 0px 0px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skilllabel p{
+    color: rgb(74, 228, 92);
+    font-size: 40px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 700;
+    height: 0px;
+}
+.skillDetails p{
+    color: white;
+    font-size: 30px;
+    padding: 0px 0px 0px 0px;
+    font-weight: 700;
+}
+
+.testtitle{
+    color:   white;
+    font-size: 40px;
+    padding: 20px 0px 100px 0px;
+    font-weight: 800;
+    height: 0px;
+}
